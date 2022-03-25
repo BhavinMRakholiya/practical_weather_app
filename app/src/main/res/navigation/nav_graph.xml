@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.practiclewatheraapp.ui.fragment.HomeFragment"
+        android:name="com.practiclewatheraapp.ui.fragment.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
 
@@ -29,7 +29,7 @@
 
     <fragment
         android:id="@+id/mapFragment"
-        android:name="com.practiclewatheraapp.ui.fragment.MapFragment"
+        android:name="com.practiclewatheraapp.ui.fragment.map.MapFragment"
         android:label="fragment_map"
         tools:layout="@layout/fragment_map">
 
