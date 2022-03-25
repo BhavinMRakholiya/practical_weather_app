@@ -38,6 +38,7 @@ class CityDetailsFragment : BaseFragment<FragmentCityDetailsBinding>() {
                             this.tvHumidity.text= it.body()?.main?.humidity
                             this.tvWind.text= it.body()?.wind?.speed
                             this.tvRainChance.text= it.body()?.weather?.get(0)?.main
+                            this.tvPressure.text= it.body()?.main?.pressure
                         }
                     }
                 }

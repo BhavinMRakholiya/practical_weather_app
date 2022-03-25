@@ -2,4 +2,9 @@
     <string name="app_name">Practicle Wather Aapp</string>
     <string name="lbl_home">Home</string>
     <string name="lbl_help">Help</string>
+    <string name="lbl_no_data_found">No Data Found</string>
+    <string name="lbl_sure_to_add">Are you sure you want to add this city?</string>
+    <string name="lbl_yes">Yes</string>
+    <string name="lbl_no">No</string>
+    <string name="lbl_sure_to_remove">Are you sure you want to delete this city?</string>
 </resources>

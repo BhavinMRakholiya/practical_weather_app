@@ -14,4 +14,6 @@ data class Main(
     val tempMax: String,
     @SerializedName("humidity")
     val humidity: String,
+    @SerializedName("pressure")
+    val pressure: String,
 )

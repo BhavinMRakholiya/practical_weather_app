@@ -29,4 +29,10 @@ class WeatherRepositoryImp @Inject constructor(private val mApiService: ApiServi
         }
     }
 
+    suspend fun deleteCityData(cityData: CityData):Int{
+        return withContext(Dispatchers.IO) {
+            return@withContext cityDao.deleteCity(cityData)
+        }
+    }
+
 }

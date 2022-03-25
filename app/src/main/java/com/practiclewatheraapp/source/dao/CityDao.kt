@@ -12,4 +12,7 @@ interface CityDao {
     @Transaction
     @Query("SELECT * FROM city_table ORDER BY id DESC")
     fun getCityData() : List<CityData>
+
+    @Delete
+    fun deleteCity(cityData: CityData):Int
 }
