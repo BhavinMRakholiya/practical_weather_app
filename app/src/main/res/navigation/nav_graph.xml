@@ -10,5 +10,28 @@
         android:name="com.practiclewatheraapp.ui.fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_mapFragment"
+            app:destination="@id/mapFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.practiclewatheraapp.ui.fragment.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help">
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.practiclewatheraapp.ui.fragment.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map">
+
     </fragment>
 </navigation>
