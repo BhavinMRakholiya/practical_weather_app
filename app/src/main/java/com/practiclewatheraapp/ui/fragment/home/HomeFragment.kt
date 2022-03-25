@@ -13,7 +13,9 @@ import kotlinx.coroutines.launch
 @AndroidEntryPoint
 class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     private val mHomeViewModel by viewModels<HomeViewModel>()
-    private val mCityAdapter: CityAdapter by lazy { CityAdapter() }
+    private val mCityAdapter: CityAdapter by lazy { CityAdapter {
+        findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToCityDetailsFragment(it.lat.toString(),it.longitude.toString()))
+    } }
 
     override fun onReady() {
         mViewDataBinding.rvCity.adapter = mCityAdapter

@@ -5,7 +5,7 @@ import com.practiclewatheraapp.databinding.ItemCityBinding
 import com.practiclewatheraapp.source.entity.CityData
 import com.practiclewatheraapp.ui.base.BaseRecyclerViewAdapter
 
-class CityAdapter : BaseRecyclerViewAdapter<ItemCityBinding>() {
+class CityAdapter(private val onCityClick: (CityData) -> Unit) : BaseRecyclerViewAdapter<ItemCityBinding>() {
     private val listUsers = arrayListOf<CityData>()
 
     override fun setLayoutItem() = R.layout.item_city
@@ -14,6 +14,9 @@ class CityAdapter : BaseRecyclerViewAdapter<ItemCityBinding>() {
 
     override fun onViewReady(holder: ViewHolder<ItemCityBinding>, position: Int) {
         holder.mBinding.cityData = listUsers[position]
+        holder.itemView.setOnClickListener {
+            onCityClick.invoke(listUsers[position])
+        }
     }
 
     fun updateData(listUsers: List<CityData>) {

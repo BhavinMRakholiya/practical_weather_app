@@ -1,5 +1,6 @@
 package com.practiclewatheraapp.source.remote
 
+import com.practiclewatheraapp.domain.model.CityDetails
 import com.practiclewatheraapp.source.entity.CityData
 import retrofit2.Response
 import retrofit2.http.GET
@@ -11,5 +12,5 @@ interface ApiServices {
         @Query("lat") lat: String,
         @Query("lon") long: String,
         @Query("appid") appId: String
-    ): Response<CityData>
+    ): Response<CityDetails>
 }

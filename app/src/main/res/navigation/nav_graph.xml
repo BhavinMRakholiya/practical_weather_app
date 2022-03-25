@@ -18,6 +18,14 @@
             app:exitAnim="@android:anim/fade_out"
             app:popEnterAnim="@android:anim/fade_in"
             app:popExitAnim="@android:anim/fade_out" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_cityDetailsFragment"
+            app:destination="@id/cityDetailsFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
     </fragment>
 
     <fragment
@@ -32,6 +40,22 @@
         android:name="com.practiclewatheraapp.ui.fragment.map.MapFragment"
         android:label="fragment_map"
         tools:layout="@layout/fragment_map">
+    </fragment>
 
+    <fragment
+        android:id="@+id/cityDetailsFragment"
+        android:name="com.practiclewatheraapp.ui.fragment.city.CityDetailsFragment"
+        android:label="fragment_city_details"
+        tools:layout="@layout/fragment_city_details">
+
+        <argument
+            android:name="lat"
+            app:argType="string"
+            />
+
+        <argument
+            android:name="lang"
+            app:argType="string"
+            />
     </fragment>
 </navigation>
