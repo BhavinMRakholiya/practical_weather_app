@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Practicle Wather Aapp</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_help">Help</string>
 </resources>
