@@ -2,9 +2,19 @@
     <string name="app_name">Practicle Wather Aapp</string>
     <string name="lbl_home">Home</string>
     <string name="lbl_help">Help</string>
-    <string name="lbl_no_data_found">No Data Found</string>
-    <string name="lbl_sure_to_add">Are you sure you want to add this city?</string>
+    <string name="lbl_no_data_found">No Data Found!</string>
+    <string name="lbl_sure_to_add">Are you sure you want to bookmark this city?</string>
     <string name="lbl_yes">Yes</string>
     <string name="lbl_no">No</string>
-    <string name="lbl_sure_to_remove">Are you sure you want to delete this city?</string>
+    <string name="lbl_sure_to_remove">Are you sure you want to remove this city?</string>
+    <string name="next">Next</string>
+    <string name="home">Bookmarked City List</string>
+    <string name="bookmark">Bookmark City</string>
+    <string name="details">City Today Weather Forecast</string>
+    <string name="remove_data">Removing BookMarked City</string>
+    <string name="home_text">Add and bookmark city using add button</string>
+    <string name="shop_text">Bookmark your favourite city adding marker on Google Map</string>
+    <string name="offers_text">Show today weather forecast details of your favourite city</string>
+    <string name="rewards_text">"Remove bookmarked city using long press click on particular city item"</string>
+    <string name="get_started">Get Started</string>
 </resources>

@@ -30,7 +30,7 @@
 
     <fragment
         android:id="@+id/helpFragment"
-        android:name="com.practiclewatheraapp.ui.fragment.HelpFragment"
+        android:name="com.practiclewatheraapp.ui.fragment.help.HelpFragment"
         android:label="fragment_help"
         tools:layout="@layout/fragment_help">
     </fragment>

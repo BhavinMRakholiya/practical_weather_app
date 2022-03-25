@@ -7,11 +7,15 @@
         <entry key="..\:/New folder/practical_weather_app/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.20555555555555555" />
         <entry key="..\:/New folder/practical_weather_app/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.20555555555555555" />
         <entry key="..\:/New folder/practical_weather_app/app/src/main/res/drawable/ic_baseline_home_blue.xml" value="0.20555555555555555" />
+        <entry key="..\:/New folder/practical_weather_app/app/src/main/res/drawable/slider_dot_selector.xml" value="0.20555555555555555" />
+        <entry key="..\:/New folder/practical_weather_app/app/src/main/res/drawable/slider_selected_dot.xml" value="0.20555555555555555" />
+        <entry key="..\:/New folder/practical_weather_app/app/src/main/res/drawable/slider_unselected_dot.xml" value="0.20555555555555555" />
         <entry key="..\:/New folder/practical_weather_app/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/New folder/practical_weather_app/app/src/main/res/layout/fragment_city_details.xml" value="0.2" />
         <entry key="..\:/New folder/practical_weather_app/app/src/main/res/layout/fragment_help.xml" value="0.1390625" />
         <entry key="..\:/New folder/practical_weather_app/app/src/main/res/layout/fragment_home.xml" value="0.176" />
         <entry key="..\:/New folder/practical_weather_app/app/src/main/res/layout/fragment_map.xml" value="0.1" />
+        <entry key="..\:/New folder/practical_weather_app/app/src/main/res/layout/fragment_slider_item.xml" value="0.25" />
         <entry key="..\:/New folder/practical_weather_app/app/src/main/res/layout/item_city.xml" value="0.26197916666666665" />
         <entry key="..\:/New folder/practical_weather_app/app/src/main/res/menu/bottom_navigation_main.xml" value="0.25" />
       </map>

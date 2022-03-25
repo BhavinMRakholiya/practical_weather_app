@@ -2,6 +2,8 @@ package com.practiclewatheraapp.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import androidx.core.view.isVisible
 import com.practiclewatheraapp.R
 import androidx.navigation.ui.NavigationUI
 
@@ -24,5 +26,10 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView =
             findViewById<BottomNavigationView>(R.id.activity_main_bottom_navigation_view)
         setupWithNavController(bottomNavigationView, navController)
+
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            bottomNavigationView.isVisible =
+                !(destination.id == R.id.cityDetailsFragment || destination.id == R.id.mapFragment)
+        }
     }
 }
